@@ -1,0 +1,18 @@
+1️⃣ INPUT là gì? (hiểu đúng 1 lần là dùng mãi)
+
+GPIO có 2 chế độ:
+	•	OUTPUT → ESP32 điều khiển ra ngoài
+	•	INPUT → ESP32 đọc tín hiệu từ bên ngoài
+
+📌 INPUT dùng để:
+	•	Đọc nút nhấn
+	•	Đọc cảm biến mưa
+	•	Đọc cảm biến line
+	•	Đọc công tắc
+2️⃣ Nút nhấn hoạt động thế nào?
+
+Nút nhấn chỉ có 2 trạng thái:
+KHÔNG NHẤN - HIGH (1)
+NHẤN - LOW (0)
+❓ Tại sao ngược?
+👉 Vì ta dùng PULL-UP nội bộ của ESP32 (an toàn – đơn giản)
