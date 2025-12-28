@@ -1,0 +1,23 @@
+Ghi chú project ESP32 - Những bài học và kiến thức cơ bản
+## GPIO và LED
+GPIO là gì? GPIO = General Purpose Input Output
+→ Chân vào / ra đa năng
+ESP32 dùng GPIO để:
+	•	🔴 Bật / tắt LED
+	•	🟢 Đọc cảm biến
+	•	⚙️ Điều khiển motor
+	•	📡 Giao tiếp thiết bị khác
+📌 Trong bài này ta dùng GPIO ở chế độ OUTPUT
+2️⃣ LED onboard trên ESP32
+Hầu hết ESP32 có:
+	•	LED gắn sẵn trên board
+	•	Thường nối với GPIO 2
+👉 Ưu điểm:
+	•	Không cần đấu dây
+	•	Test nhanh nhất
+3️⃣ Tư duy điều khiển LED (RẤT QUAN TRỌNG)
+LED chỉ có 2 trạng thái:
+Trạng thái
+Giá trị
+BẬT - HIGH (1)
+TẮT - LOW (0)
