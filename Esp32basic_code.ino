@@ -9,7 +9,7 @@ bool trangThaiNutTruoc = HIGH; // Kiểm tra trạng tháu nút trước
 unsigned long thoiGianNhan = 0;
 unsigned long doTreChongDoi = 50; // ms
 void setup() {
-  pinMode(CHAN_DEN, OUTPUT);
+  pinMode(CHAN_DEN, OUTPUT); 
   pinMode(CHAN_NUT, INPUT_PULLUP);
 
   Serial.begin(115200);
